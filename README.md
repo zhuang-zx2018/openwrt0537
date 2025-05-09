@@ -2,4 +2,4 @@
 
 欢迎git
 
-![image](https://github.com/user-attachments/assets/f421cd11-1f52-4a10-b0d2-1c8f88593d9d)
+![image](https://github.com/user-attachments/assets/1aa25ed1-4256-45e5-864e-3c50374ab537)
