@@ -18,3 +18,8 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+# 文件：diy-part2.sh
+echo "CONFIG_PACKAGE_ODP=y" >> .config
+echo "CONFIG_PACKAGE_xmurp-ua=y" >> .config
+echo "CONFIG_NETFILTER=y" >> .config
+echo "CONFIG_NETFILTER_XT_MATCH_MARK=y" >> .config
