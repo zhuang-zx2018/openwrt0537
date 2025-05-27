@@ -76,7 +76,6 @@ jobs:
     # 关键修复点：使用绝对路径明确操作位置
     - name: Clone custom packages
       run: |
-        svn checkout https://github.com/openwrt/packages/trunk/libs/libnetfilter-queue package/libs/libnetfilter-queue
         cd $GITHUB_WORKSPACE/openwrt/package
         git clone https://github.com/zhuang-zx2018/UA2F.git
 
